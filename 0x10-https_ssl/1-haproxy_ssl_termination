@@ -38,8 +38,8 @@ frontend www-https
 
 backend web-backend
     balance roundrobin
-    server 24304-web-01 3.236.88.110 check
-    server 24304-web-02 3.236.5.40 check
+    server 16302-web-01 3.235.181.206 check
+    server 16302-web-02 3.236.57.242 check
 
 backend letsencrypt-backend
     server letsencrypt 127.0.0.1:54321

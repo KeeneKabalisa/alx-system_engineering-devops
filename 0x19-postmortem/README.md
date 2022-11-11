@@ -2,7 +2,7 @@
 
 ## Issue Summary
 
-The web-01 server was down for six hours between 00:00 EAT and 06:00.
+The web-01 server was down for six hours between 00:00 and 06:00.
 
 All services on the web server were inaccessible but the load balancer was still sending half of the user traffic to the server affecting about 50% of users that requested our services during the downtime.
 
